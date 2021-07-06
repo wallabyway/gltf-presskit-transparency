@@ -1,0 +1,22 @@
+<style>
+body { margin:0 }
+babylon {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+</style>
+
+<body>
+<babylon id="babylon" model="./MosquitoInAmber_withRefraction.glb" skybox="false"></babylon>	
+</body>
+<script src="viewer.js"></script>
+<script>
+	window.setTimeout(i=>{
+		let viewer = BabylonViewer.viewerManager.getViewerById("babylon");
+		let scene = viewer.sceneManager.scene;
+		var reflectionTexture = new BABYLON.HDRCubeTexture("./studioSoftbox2Umbrellas_panorama_radiance.hdr", scene, 512, false, true, false, true);
+		
+		//scene.createDefaultSkybox(reflectionTexture, true, 10000, .01);
+	},12000)
+	</script>
