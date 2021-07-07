@@ -1,0 +1,532 @@
+{
+    "asset": {
+        "version": "2.0",
+        "copyright": "Copyright 2021 Wayfair LLC. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/",
+        "generator": "Created in 3ds Max, exported with Max2Babylon, edited in Visual Studio Code with glTF Tools"
+    },
+    "extensionsUsed": [
+        "KHR_materials_transmission",
+        "KHR_materials_specular",
+        "KHR_materials_volume",
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                2
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "glassCover"
+        },
+        {
+            "mesh": 1,
+            "name": "olives"
+        },
+        {
+            "mesh": 2,
+            "name": "glassDish"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "glassCover"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "COLOR_0": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 4,
+                    "material": 1
+                }
+            ],
+            "name": "olives"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11,
+                        "COLOR_0": 12,
+                        "TEXCOORD_0": 13
+                    },
+                    "indices": 9,
+                    "material": 2
+                },
+                {
+                    "attributes": {
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "COLOR_0": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 14,
+                    "material": 3
+                }
+            ],
+            "name": "glassDish"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 10752,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1858,
+            "max": [
+                0.17045781,
+                0.237663642,
+                0.1704578
+            ],
+            "min": [
+                -0.17045778,
+                0.0303417463,
+                -0.1704578
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 22296,
+            "componentType": 5126,
+            "count": 1858,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1858,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 21504,
+            "componentType": 5123,
+            "count": 51840,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 44592,
+            "componentType": 5126,
+            "count": 10992,
+            "max": [
+                0.145761073,
+                0.0804335,
+                0.154951856
+            ],
+            "min": [
+                -0.149238825,
+                0.00313770818,
+                -0.155664623
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 176496,
+            "componentType": 5126,
+            "count": 10992,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 10992,
+            "type": "VEC4",
+            "name": "accessorColors"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 14864,
+            "componentType": 5126,
+            "count": 10992,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 125184,
+            "componentType": 5123,
+            "count": 4416,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 308400,
+            "componentType": 5126,
+            "count": 833,
+            "max": [
+                0.229711249,
+                0.0407726243,
+                0.229711249
+            ],
+            "min": [
+                -0.229711249,
+                0.00323473779,
+                -0.229711249
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 318396,
+            "componentType": 5126,
+            "count": 833,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 175872,
+            "componentType": 5126,
+            "count": 833,
+            "type": "VEC4",
+            "name": "accessorColors"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 102800,
+            "componentType": 5126,
+            "count": 833,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 134016,
+            "componentType": 5123,
+            "count": 2112,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 328392,
+            "componentType": 5126,
+            "count": 449,
+            "max": [
+                0.229711249,
+                0.03915475,
+                0.229711249
+            ],
+            "min": [
+                -0.229711249,
+                7.41892363E-05,
+                -0.229711249
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 333780,
+            "componentType": 5126,
+            "count": 449,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 189200,
+            "componentType": 5126,
+            "count": 449,
+            "type": "VEC4",
+            "name": "accessorColors"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 109464,
+            "componentType": 5126,
+            "count": 449,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 138240,
+            "name": "bufferViewScalar"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 138240,
+            "byteLength": 339168,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 477408,
+            "byteLength": 113056,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 590464,
+            "byteLength": 196384,
+            "byteStride": 16,
+            "name": "bufferViewFloatVec4"
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "PearlGoldOliveCoveredGlassDish.bin",
+            "byteLength": 786848
+        }
+    ],
+    "materials": [
+        {
+            "name": "glassCover",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 10
+                },
+                "metallicRoughnessTexture": {
+                    "index": 9
+                }
+            },
+            "normalTexture": {
+                "index": 0,
+                "scale": 3
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.1,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_specular": {
+                    "specularFactor": 2,
+                    "specularColorTexture": {
+                        "index": 2
+                    }
+                }
+            }
+        },
+        {
+            "name": "olives",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 5
+                },
+                "metallicRoughnessTexture": {
+                    "index": 4
+                }
+            },
+            "normalTexture": {
+                "index": 3,
+                "scale": 4
+            },
+            "occlusionTexture": {
+                "index": 4
+            }
+        },
+        {
+            "name": "glassDish",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0.86,
+                    0.6,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.05
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "goldLeaf",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 7,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "scale": [
+                                4.0,
+                                2.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                },
+                "metallicRoughnessTexture": {
+                    "index": 8,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "scale": [
+                                4.0,
+                                2.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                }
+            },
+            "normalTexture": {
+                "index": 6,
+                "scale": 0.5,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "scale": [
+                            4.0,
+                            2.0
+                        ],
+                        "texCoord": 0
+                    }
+                }
+            },
+            "doubleSided": true,
+            "alphaMode": "MASK"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "glasscover_n.png"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "glasscover_t.png"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "glasscover_s.png"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "olives_n.png"
+        },
+        {
+            "sampler": 0,
+            "source": 4,
+            "name": "olives_orm.png"
+        },
+        {
+            "sampler": 0,
+            "source": 5,
+            "name": "olives_c.png"
+        },
+        {
+            "sampler": 0,
+            "source": 6,
+            "name": "goldleaf_n.png"
+        },
+        {
+            "sampler": 0,
+            "source": 7,
+            "name": "goldleaf_c.png"
+        },
+        {
+            "sampler": 0,
+            "source": 8,
+            "name": "goldleaf_orm.png"
+        },
+        {
+            "sampler": 0,
+            "source": 9,
+            "name": "glasscover_orm.png"
+        },
+        {
+            "sampler": 0,
+            "source": 10,
+            "name": "glasscover_c.png"
+        }
+    ],
+    "images": [
+        {
+            "uri": "./glasscover_n.png"
+        },
+        {
+            "uri": "./glasscover_t.png"
+        },
+        {
+            "uri": "./glasscover_s.png"
+        },
+        {
+            "uri": "./olives_n.png"
+        },
+        {
+            "uri": "./olives_orm.png"
+        },
+        {
+            "uri": "./olives_c.png"
+        },
+        {
+            "uri": "./goldleaf_n.png"
+        },
+        {
+            "uri": "./goldleaf_c.png"
+        },
+        {
+            "uri": "./goldleaf_orm.png"
+        },
+        {
+            "uri": "./glasscover_orm.png"
+        },
+        {
+            "uri": "./glasscover_c.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ]
+}
