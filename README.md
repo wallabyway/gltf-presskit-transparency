@@ -1,4 +1,7 @@
 # gltf-presskit-transparency
+
+Announcement: https://www.khronos.org/news/press/new-gltf-extensions-raise-the-bar-on-3d-asset-visual-realism
+
 pressKit for Transparency
 
 https://user-images.githubusercontent.com/440241/124998203-da2df980-e000-11eb-9cda-16e51cbb55c8.mp4
